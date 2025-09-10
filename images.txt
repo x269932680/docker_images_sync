@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-
-=======
 registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.6.2
->>>>>>> a00d0e4 (refactor: add docker tags: registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.6.2)
