@@ -34,8 +34,9 @@ while IFS= read -r image; do
         continue
     fi
 
-    name=$(echo "${image}" | cut -d '/' -f2)
-    tag=$(echo "${name}" | cut -d ':' -f2)
+    #name=$(echo "${image}" | cut -d '/' -f2)
+    #tag=$(echo "${name}" | cut -d ':' -f2)
+    name=$(basename "${image}")
     targetFullName=${TARGET_REGISTRY}/${TARGET_NAMESPACE}/${name}
 
     # 打阿里云的tag
